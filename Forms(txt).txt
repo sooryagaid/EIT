@@ -1,0 +1,81 @@
+
+<html>
+<head>
+<title> FORM</title>
+</head>
+
+<body bgcolor="grey">
+<h1><b>Class Form</b></h1>
+<form>
+
+<label for="fname">First Name:</label>
+<input type="text" id="fname" name="fname" required/><br> <br>
+
+<label for="lname">Last name:</label>
+<input type="text" id="lname" name="lname" required/><br><br>
+
+<label for="dob">DOB:</label>
+<input type="date" id="dob" name="dob"  required/><br><br>
+
+<p>Gender</p><br>
+<input type="radio" id="male" name="gender" required>
+<label for="male">Male</label><br>
+<input type="radio" id="female" name="gender">
+<label for="female">Female</label><br><br>
+
+<label for="mail">Email:</label>
+<input type="email" id="mail" placeholder="yourmail id" name="user_email" required/><br><br>
+
+<label for="password">Password:</label>
+<input type="password" id="password" name="password" required><br><br>
+
+<label for="mobile">Mobile Number:</label>
+<input type="tel" id="mobile" placeholder="Your Mobile Number" name="mobile" required/><br><br>
+
+<label for="address">Address:</label>
+<textarea id="msg" id="address"name="address" rows="6" cols="18" required></textarea><br><br><br>
+
+<h><b><i> ITZ MARVEL TIME</i></b></h>
+<h2> Here is Some Marvel Question answer for that!!</h2>
+       
+ <p>Please select your favorite Marvel Character:</p>
+<input type="radio" id="ironman" name="fav_marvelmovie" value="IRON MAN" required>
+<label for="ironman">IRON MAN</label><br>
+<input type="radio" id="cap" name="fav_marvelmovie" value="CAPTAIN AMERICA">
+<label for="cap">CAPTAIN AMERICA</label><br>
+<input type="radio" id="loki" name="fav_marvelmovie" value="LOKI">
+<label for="loki">LOKI</label><br>
+<input type="radio" id="thor" name="fav_marvelmovie" value="THOR">
+<label for="loki">THOR</label><br><br>
+
+
+<p>Please select your favorite Movies series:</p>
+<input type="checkbox" id="movie1" name="movie1" value="The Spiderman Series" required>
+<label for="movie1"> The Spiderman Series </label><br>
+<input type="checkbox" id="movie2" name="movie2" value="Iron Man Series">
+<label for="movie2"> Iron Man Series </label><br>
+<input type="checkbox" id="movie3" name="movie3" value="Thor Series">
+<label for="movie3"> Thor Series </label><br>
+<input type="checkbox" id="movie4" name="movie4" value="Hulk Series">
+<label for="movie4"> Hulk Series </label><br>
+<input type="checkbox" id="movie5" name="movie5" value="Captain America Series">
+<label for="movie5"> Captain America Series </label><br><br>
+
+
+<label for="Gift Hampers">Choose a Gift:</label>
+<select id="gift" name="gifts" >
+  <option value="tshirt">Hulk Hoodie</option>
+  <option value="ironmantshirt">Arc Reator Printed Tees</option>
+  <option value="capsheild">Captain America Backpack</option>
+  <option value="thor">Thor Strombreaker Keychain</option>
+</select><br><br>
+
+<h2> Upload A Costume pic of ur fav Character </h2>
+
+<input type="file" value="Fileupload" required><br><br>
+<input type="reset" value="Reset">   	
+<input type="submit" value="Submit"><br>
+
+</form>
+</body>
+</html>

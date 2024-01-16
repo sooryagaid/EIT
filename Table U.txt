@@ -1,0 +1,105 @@
+
+<html>
+<head><center><h1><b><i>AIDS-C</i></b></h1><br><br>
+<title>TimeTable</title>
+<style>
+table,th,tr{
+border :2px solid red;
+padding: 30px
+}
+th, td {
+padding-top: 20px;
+padding-bottom: 15px;
+padding-left: 40px;
+padding-right: 35px;
+}
+</style>
+</head>
+
+<body>
+<table border="1">
+
+<tr>
+<th bgcolor="lightblue"> Days </th>
+<th bgcolor="lightblue"> I<br>8.45am-9.40am</th>
+<th bgcolor="lightblue"> II<br>9.40am-10.25am</th>
+<th bgcolor="lightblue" rowspan="7"> Break<br>10.25am-10.45am</th>
+<th bgcolor="lightblue"> III<br>10.45am-11.30am</th>
+
+<th bgcolor="lightblue"> IV<br>11.30am-12.15pm </th>
+<th bgcolor="lightblue" rowspan="7"> LUNCH<br>12.15pm-1.15pm</th>
+<th bgcolor="lightblue"> V<br>1.15pm-2.00pm </th>
+<th bgcolor="lightblue"> VI<br>2.00pm-2.45pm </th>
+<th bgcolor="lightblue" rowspan="7"> Break<br>2.45pm-3.00pm</th>
+<th bgcolor="lightblue"> VII<br>3.00pm-3.45pm </th>
+<th bgcolor="lightblue"> VIII<br>3.45pm-4.30pm </th>
+</tr>
+
+<tr>
+<th bgcolor="grey"> Monday </th>
+<td colspan="2"> CP </td>
+<td colspan="2"> EIT</td>
+<td> PHY </td>
+<td> CP</td>
+<td> CS I</td>
+<td> MODE</td>
+</tr>
+
+<tr>
+<th bgcolor="grey"> Tuesday </th>
+<td> EIT</td>
+<td> CP</td>
+<td> LIB</td>
+<td> MODE </td>
+<td>CS I</td>
+<td> PHY</td>
+<td colspan="2"> PHT LAB</td>
+</tr>
+
+<tr>
+
+<th bgcolor="grey"> Wednesday </th>
+<td> PHY</td>
+<td> LIB</td>
+<td> EIT</td>
+<td> CP</td>
+<td> LIB </td>
+<td> PHY</td>
+<td> MODE</td>
+<td> CS I</td>
+</tr>
+
+<tr>
+<th bgcolor="grey"> Thursday </th>
+<td> MODE</td>
+<td> CP</td>
+<td> CP</td>
+<td> PHY </td>
+<td> MODE</td>
+<td> EIT</td>
+<td> CS I</td>
+<td> TAMIL</td>
+</tr>
+
+<tr>
+<th bgcolor="grey">Friday </th>
+<td> CS I</td>
+<td> EIT</td>
+<td colspan="2"> CP</td>
+<td colspan="2"> PHY</td>
+<td colspan="2"> MAT LAB</td>
+</tr>
+
+<tr>
+<th bgcolor="grey"> Saturday </th>
+<td> MODE</td>
+<td> CS I</td>
+<td> CP</td>
+<td> PHY </td>
+<td> EIT</td>
+<td> TAMIL</td>
+<td> SPD</td>
+<td> PET</td>
+</tr>
+</body>
+</html>
